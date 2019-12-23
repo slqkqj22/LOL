@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         val constss = Constss("HELLO WORLD!!")
         //binding.setVariable(BR.constss, constss)
         binding.executePendingBindings()
-
     }
 }
 
